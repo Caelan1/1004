@@ -2,20 +2,24 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Press Start 2P', cursive; /* This is a pixelated font that looks like it came from a retro video game. */
+    background-color: #000; /* A darker background may give more of a retro arcade feel. */
 }
 
 h1 {
-    color: #333;
+    color: #ffcc00; /* This yellow color is reminiscent of old arcade game titles. */
     margin-bottom: 10px;
+    text-shadow: 3px 3px #c88d00; /* Adding some text shadow for a more arcade feel. */
 }
-
+h2 {
+    color: white;
+}
 #scoreboard {
     margin-bottom: 20px;
+    color: #0f0; /* Green text was very common in old school computer displays. */
 }
 
 #gameCanvas {
-    border: 1px solid #000;
-    background-color: black;
+    border: 3px solid #fff; /* A thicker white border might resemble an old CRT monitor. */
+    background-color: #000; /* Black to contrast with the game objects. */
 }
